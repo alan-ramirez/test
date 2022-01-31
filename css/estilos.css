@@ -1,0 +1,111 @@
+/* reset */
+
+*{
+        margin: 0;
+        padding: 0;
+}
+
+body{
+    background-color: rgba(172, 164, 164, 0.281);
+}
+
+/* navegacion */
+.navegacion{
+    width: 500px;
+    margin: 30px auto;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+/* menu*/
+.menu > li {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* subMenu */
+.subMenu {
+    position: absolute;
+    background-color: white;
+    display: none;
+    width: 80%;
+    text-decoration: none;
+}
+
+.subMenu li a {
+    display: block;
+    padding: 5px  ;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.menu li:hover .subMenu {
+    display: block;
+}
+
+/*logo*/
+.logo {
+    width: 120px;
+    height: 80px;
+}
+
+/*parrafo 1*/
+.p1{
+    color: black;
+    padding-top: 70px;
+    margin: 10px;
+    font-size: 18px;
+}
+/*imagenes*/
+.img {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 280px;
+    height: 180px;
+}
+
+/*videos*/
+.video {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 560px;
+    height: 315px;
+}
+
+/*parrafo 2*/
+.p2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*derechos reservados*/
+.derecho {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+/* boton arriba */
+.arriba {
+    text-decoration: none;
+    color: rgba(16, 12, 20, 0.801);
+    font-size: 14px;
+}
